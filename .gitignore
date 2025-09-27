@@ -1,0 +1,102 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.tmp
+*.log
+*.sqlite3
+db.sqlite3
+
+# Django stuff:
+*.pot
+*.pyc
+*.mo
+local_settings.py
+settings_local.py
+.env
+.env.*
+.envrc
+.env.bak
+instance/
+.DS_Store
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+.virtualenv/
+bin/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+__pypackages__/
+
+# Django migrations (if you don’t want them versioned – optional)
+#migrations/
+
+# --- Node / React ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vscode/
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --- Logs ---
+*.log
+logs/
+*.pid
+
+# --- Others ---
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
