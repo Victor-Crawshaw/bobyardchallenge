@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
+import { ThumbsUp } from 'lucide-react';
 
 const API_URL = 'http://127.0.0.1:8000/api/comments/';
 
@@ -99,6 +100,7 @@ function App() {
                   <button onClick={() => handleDeleteComment(comment.id)}>
                     Delete
                   </button>
+                  <div className="comment-likes">{comment.likes} <ThumbsUp/></div>
                 </div>
               </div>
 

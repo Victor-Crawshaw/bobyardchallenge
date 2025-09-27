@@ -87,6 +87,12 @@ h1 {
     font-size: 0.8rem;
 }
 
+.comment-likes {
+    color: #888;
+    font-size: 1.0rem;
+
+}
+
 .comment-actions button {
     background: none;
     border: none;
@@ -110,4 +116,10 @@ h1 {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.comment-actions {
+    display: flex;          
+    align-items: center;    
+    gap: 10px;              
 }
